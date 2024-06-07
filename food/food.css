@@ -4,7 +4,7 @@ body {
     margin: 0px;
     font-family: "Open Sans", sans-serif; 
     text-align: center;
-    background-color: #8D99AE;
+    background-color: lightgray;
 }
 
 /* Navbar */
@@ -40,26 +40,6 @@ a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-}
-
-@media screen and (max-width: 720px) {
-    nav {
-        padding: 0px;
-        height: auto;
-    }
-
-    ul {
-        width: 100%;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    li {
-        width: 100%;
-    }  
-
 }
 
 .navbar {
@@ -116,6 +96,29 @@ a {
     background-color: darkred;
 }
 
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 0px;
+        height: auto;
+    }
+
+    ul {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    li {
+        width: 100%;
+    }  
+
+}
+
+
+/* Header + Bar */
+
 header {
     background-image: url("../assets/indexBackground.jpeg");
     height: 200px;
@@ -131,18 +134,11 @@ header {
     background-color: #E63946;
 }
 
-
-
-
-
-
-
-/* Attraction Page Content */
-#title {
+h1 {
     font-size: 40px;
-    color: #EDF2F4;
 }
 
+/* Attraction Page Content */
 .titleDescription {
     max-width: 700px;
     margin-top: 1em;
@@ -170,7 +166,6 @@ section {
     
 }
 
-
 img {
     height: 200px;
     margin: auto;
@@ -186,14 +181,6 @@ h2 {
 h3 {
     color: #1d3557;
 }
-
-/* p, a {
-    padding: 20px 0px;
-    width: 80%;
-    margin: auto;
-    font-size: 20px;
-    color: #2B2D42;
-} */
 
 p {
     padding: 20px 0px;
@@ -211,6 +198,7 @@ a:hover {
     color: #EF233C;
 }
 
+/* Responsive Design (Media Queries) */
 @media screen and (max-width: 400px) {
     iframe {
         width: 250px;
@@ -241,13 +229,4 @@ a:hover {
         height: 500px;
         width: 600px;
     }
-}
-
-
-
-
-
-
-h1 {
-    font-size: 40px;
 }

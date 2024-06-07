@@ -3,7 +3,7 @@ body {
     margin: 0px;
     font-family: "Open Sans", sans-serif; 
     /* font-style: italic; */
-    background-color: #8D99AE;
+    background-color: lightgray;
     
 }
 
@@ -89,60 +89,94 @@ a {
 /* Universal Header + Bar */
 .navbar {
     background-color: #E63946;
-  }
-  
-  .navbar ul {
+}
+
+.navbar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .navbar ul li {
+}
+
+.navbar ul li {
     display: inline-block;
-  }
-  
-  .navbar ul li a {
+}
+
+.navbar ul li a {
     display: block;
     color: white;
     text-decoration: none;
     padding: 15px;
-  }
-  
-  .navbar ul li:hover {
+}
+
+.navbar ul li:hover {
     background-color: darkred;
-  }
-  
-  .subnav {
+}
+
+.subnav {
     position: relative;
-  }
-  
-  .subnav-content {
+}
+
+.subnav-content {
     display: none;
     position: absolute;
     background-color: #E63946;
     z-index: 1;
-  }
-  
-  .subnav:hover .subnav-content {
+}
+
+.subnav:hover .subnav-content {
     display: block;
-  }
-  
-  .subnav-content li {
+}
+
+.subnav-content li {
     display: block;
-  }
-  
-  .subnav-content li a {
+}
+
+.subnav-content li a {
     padding: 10px;
     color: white;
     text-decoration: none;
-  }
-  
-  .subnav-content li:hover {
+}
+
+.subnav-content li:hover {
     background-color: darkred;
-  }
-  
+}
+
+/* Gallery Page Content */
+.galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+    padding: 2em;
+    border-radius: 20px;
+    background-color: #EDF2F4;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+figcaption {
+    padding-top: 1em;
+    text-align: center;
+    width: 250px;
+    color: #E63946;
+    font-weight: 800;
+}
+
+h2 {
+    padding: 20px 0px 20px 40px;
+    background-color: #1d3557;
+    color: white;
+}
 
 
+/* Media Queries (Responsive Design) */
 @media screen and (max-width: 790px) {
     nav {
         padding: 0px;
@@ -180,45 +214,5 @@ a {
     .galleryContainer {
         justify-content: center;
         gap: 20px;
-    }
-    
-}
-
-#title {
-    color: #EDF2F4;
-    padding: 1em;
-}
-
-/* Gallery Page Content */
-.galleryContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-figure {
-    border: 1px solid lightgray;
-    box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
-    padding: 2em;
-    border-radius: 20px;
-    background-color: #EDF2F4;
-}
-
-img {
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
-}
-
-figcaption {
-    padding-top: 1em;
-    text-align: center;
-    width: 250px;
-    color: #E63946;
-    font-weight: 800;
-}
-
-h2 {
-    padding: 20px 0px 20px 40px;
-    background-color: #1d3557;
-    color: white;
+    }  
 }

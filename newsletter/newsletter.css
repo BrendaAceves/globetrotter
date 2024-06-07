@@ -4,12 +4,10 @@ body {
     font-family: "Open Sans", sans-serif; 
     /* font-style: italic; */
     text-align: center;
-    background-color: #8D99AE;
+    background-color: lightgray;
     
 }
 
-
-/* Universal Header Style */
 header {
     background-image: url("../assets/indexBackground.jpeg");
     height: 200px;
@@ -146,6 +144,8 @@ a {
     background-color: darkred;
 }
 
+
+/* Newsletter Section Content */
 section {
     width: 85%;
     margin: auto;

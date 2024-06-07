@@ -4,7 +4,7 @@ body {
     margin: 0px;
     font-family: "Open Sans", sans-serif; 
     text-align: center;
-    background-color: #8D99AE;
+    background-color: lightgray;
 }
 
 /* Navbar */
@@ -41,30 +41,6 @@ a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-}
-
-@media screen and (max-width: 720px) {
-    nav {
-        padding: 0px;
-        height: auto;
-    }
-
-    ul {
-        width: 100%;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    li {
-        width: 100%;
-    }  
-
-}
-
-.navbar {
-    background-color: #E63946;
 }
 
 .navbar ul {
@@ -117,6 +93,28 @@ a {
     background-color: darkred;
 }
 
+/* Navbar Media Queries */
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 0px;
+        height: auto;
+    }
+
+    ul {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    li {
+        width: 100%;
+    }  
+
+}
+
+/* Header + Bar */
 header {
     background-image: url("assets/indexBackground.jpeg");
     height: 200px;
@@ -132,7 +130,11 @@ header {
     background-color: #E63946;
 }
 
-/* General Styles */
+h1 {
+    font-size: 40px;
+}
+
+/* Main Content Styling */
 h2 {
     color:#E63946;
 }
@@ -144,6 +146,36 @@ p {
 }
 
 /* Media Queries */
+@media screen and (min-width: 1200px) {
+    section {
+        width: 1000px;
+        margin: auto;
+        background-color: #EDF2F4;
+        border-radius: 50px;
+        margin-top: 5em;
+    }
+
+    .homePage {
+        display: flex;
+        padding: 1em;
+        margin-bottom: 50px;
+        box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+        border-radius: 50px;
+    }
+
+    img {
+        width: 450px;
+        height: 450px;
+        border-radius: 50px;
+    }
+
+    .description {
+        margin: auto;
+        padding: 1em;
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 1199px) {
     section {
         width: 75%;
@@ -188,7 +220,7 @@ p {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     img {
         width: 220px;
         height: 220px;
@@ -199,52 +231,3 @@ p {
     }
 }
 
-
-
-/* Regular Style (Desktop) */
-@media screen and (min-width: 1200px) {
-    section {
-        width: 1000px;
-        margin: auto;
-        background-color: #EDF2F4;
-        border-radius: 50px;
-        margin-top: 5em;
-    }
-
-    .homePage {
-        display: flex;
-        padding: 1em;
-        margin-bottom: 50px;
-        box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
-        border-radius: 50px;
-    }
-
-    img {
-        width: 450px;
-        height: 450px;
-        border-radius: 50px;
-    }
-
-    .description {
-        margin: auto;
-        padding: 1em;
-        width: 40%;
-    }
-
-}
-
-
-/* 
-
-COLOR PALLETE:
-E63946
-F1FAEE
-A8DADC
-457B9D
-1D3557
-*/
-
-
-h1 {
-    font-size: 40px;
-}
