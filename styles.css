@@ -1,13 +1,13 @@
-/* Misc Universal Styles */
+/* Universal Styles */
 body {
     height: 100vh;
     margin: 0px;
     font-family: "Open Sans", sans-serif; 
     text-align: center;
-    background-color: #f1faee;
+    background-color: #8D99AE;
 }
 
-/* Universal Navbar Styles */
+/* Navbar */
 nav {
     background-color: #E63946;
     height: 50px;
@@ -63,61 +63,59 @@ a {
 
 }
 
-/* Universal Header + Bar */
 .navbar {
     background-color: #E63946;
-  }
-  
-  .navbar ul {
+}
+
+.navbar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .navbar ul li {
+}
+
+.navbar ul li {
     display: inline-block;
-  }
-  
-  .navbar ul li a {
+}
+
+.navbar ul li a {
     display: block;
     color: white;
     text-decoration: none;
     padding: 15px;
-  }
-  
-  .navbar ul li:hover {
+}
+
+.navbar ul li:hover {
     background-color: darkred;
-  }
-  
-  .subnav {
+}
+
+.subnav {
     position: relative;
-  }
-  
-  .subnav-content {
+}
+
+.subnav-content {
     display: none;
     position: absolute;
     background-color: #E63946;
     z-index: 1;
-  }
-  
-  .subnav:hover .subnav-content {
+}
+
+.subnav:hover .subnav-content {
     display: block;
-  }
-  
-  .subnav-content li {
+}
+
+.subnav-content li {
     display: block;
-  }
-  
-  .subnav-content li a {
+}
+
+.subnav-content li a {
     padding: 10px;
     color: white;
     text-decoration: none;
-  }
-  
-  .subnav-content li:hover {
+}
+
+.subnav-content li:hover {
     background-color: darkred;
-  }
-  
+}
 
 header {
     background-image: url("assets/indexBackground.jpeg");
@@ -134,12 +132,23 @@ header {
     background-color: #E63946;
 }
 
+/* General Styles */
+h2 {
+    color:#E63946;
+}
 
+p {
+    color: #8D99AE;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* Media Queries */
 @media screen and (max-width: 1199px) {
     section {
         width: 75%;
         margin: auto;
-        background-color: #a8dadc;
+        background-color: #EDF2F4;
         border-radius: 50px;
         margin-top: 5em;
     }
@@ -149,6 +158,9 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 50px;
+        box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+        border-radius: 50px;
     }
 
     .description {
@@ -159,10 +171,9 @@ header {
     img {
         width: 500px;
         height: 500px;
-        margin-bottom: 16px;
+        margin-bottom: 30px;
         border-radius: 15px;
     }
-  
 }
 
 @media screen and (max-width: 700px) {
@@ -170,7 +181,11 @@ header {
         width: 300px;
         height: 300px;
     }
- 
+
+    .homePage {
+        box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+        border-radius: 50px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -178,7 +193,10 @@ header {
         width: 220px;
         height: 220px;
     }
- 
+    .homePage {
+        box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+        border-radius: 50px;
+    }
 }
 
 
@@ -188,7 +206,7 @@ header {
     section {
         width: 1000px;
         margin: auto;
-        background-color: #a8dadc;
+        background-color: #EDF2F4;
         border-radius: 50px;
         margin-top: 5em;
     }
@@ -196,7 +214,9 @@ header {
     .homePage {
         display: flex;
         padding: 1em;
-        border: 1px solid black;
+        margin-bottom: 50px;
+        box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+        border-radius: 50px;
     }
 
     img {
@@ -210,7 +230,7 @@ header {
         padding: 1em;
         width: 40%;
     }
- 
+
 }
 
 
@@ -225,3 +245,6 @@ A8DADC
 */
 
 
+h1 {
+    font-size: 40px;
+}

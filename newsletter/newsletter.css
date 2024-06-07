@@ -4,7 +4,7 @@ body {
     font-family: "Open Sans", sans-serif; 
     /* font-style: italic; */
     text-align: center;
-    background-color: #f1faee;
+    background-color: #8D99AE;
     
 }
 
@@ -22,12 +22,16 @@ header {
 /* Bar */
 .bar {
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
     background-color: #E63946;
 }
 
 h1 {
     font-size: 40px;
+}
+
+.description {
+    color: #E63946;
 }
 
 /* Universal Navbar Styles */
@@ -46,6 +50,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 li:hover {
@@ -141,19 +146,16 @@ a {
     background-color: darkred;
 }
 
-
-
-
-
 section {
     width: 85%;
     margin: auto;
-    background-color: #a8dadc;
+    background-color: #EDF2F4;
     border-radius: 50px;
     margin-top: 5em;
     padding: 1em;
     max-width: 500px;
     margin-bottom: 5em;
+    box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
 }
 
 .children {
@@ -166,62 +168,19 @@ section {
     padding: 1em;
     width: 50%;
     margin: 20px auto;
+    background-color: #D90429;
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 20px;
 }
 
 input {
     margin: 20px;
+    padding: 1em;
 }
-
-/* 
-.formContainer {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    
-    justify-content: center;
-    flex-direction: column;
-
-}
-
-
-.hidden {
-    display: none;
-}
-
-
 
 
 label {
-    font-size: 25px;
+    font-size: 32px;
+    color: #2B2D42;
 }
-
-input {
-    border-radius: 10px;
-    padding: 0.5em;
-    border: 0px solid transparent;
-}
-
-#submitCheckbox:checked + label + p {
-    display: block;
-}
-
-.children {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    justify-content: center;
-    margin: auto;
-    border: 1px solid black;
-}
-
-#email {
-    margin-bottom: 30px;
-}
-
-#submit {
-    padding: 1em;
-    margin-bottom: 30px;
-}
-
-
- */
