@@ -62,10 +62,14 @@ Deployed Application (optional): https://brendaaceves.github.io/globetrotter.git
   - [x] Experiment with at least one CSS property not covered in the lessons or labs to customize your page further.
 
 ### Walkthrough Video
-
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+<div>
+    <a href="https://www.loom.com/share/8f005acde7cf45e3958adb1d745f9d37">
+      <p>Brave - Document - Brave - 7 June 2024 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/8f005acde7cf45e3958adb1d745f9d37">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/8f005acde7cf45e3958adb1d745f9d37-with-play.gif">
+    </a>
+</div>
 
 ### Reflection
 
@@ -86,8 +90,7 @@ my food guide and another guide or two as part of a sub-navbar.
 4. For the home page, I would rechange the layout so that I have a background video playing in the background as the header (I was originally intended to use it, but reverted back to my first design)
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
-
-Add your response here
+Looking at the audience and projecting my voice were a few things that went well. However, I would like to try to keep my demo a bit shorter next time since I did go over my alotted time
 
 ### Open-source libraries used
 - No open-souce libraries were used in the creation of this project.
